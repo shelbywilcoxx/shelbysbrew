@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Georgia", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+</head>
+<body>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-brown w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Shelbys <br>Brew Guide</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+    <a href="#Aboutme" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About me</a> 
+    <a href="#resume" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Resume</a>  
+    <a href="#Guides" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Guides</a>
+    <a href="scratch.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Scratch Website</a>
+  </div>
+</nav>
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-brown w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-brown w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Shelby Wilcox</span>
+</header>
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <img src="https://foodinsight.org/wp-content/uploads/2016/10/coffee-based-drinks.jpg" width="500" height="300">
+    <h1 class="w3-xxxlarge w3-text-brown"><b>Having trouble finding your go-to drink?</b></h1>
+    <h1 class="w3-xlarge w3-text-black"><b>With barista experience working at a boba shop and a specialized coffee shop, I bet I can find the drink for you! Go through my guides or Beverage Factorys Guide and we will find your new favorite drink! </b>
+      <a href="https://www.beveragefactory.com/blog/coffee-and-tea/the-ultimate-coffee-guide-types-of-coffee/">Beverage Factory's Guide Link</a> 
+    </div>
+    <!-- About me -->
+    <div class="w3-container" id="Aboutme" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-brown"><b>About me</b></h1>
+      <hr style="width:50px;border:5px solid brown" class="w3-round">
+    <div class="w3-row-padding">
+      <div class="w3-half">
+        <section>
+     <img src="/Users/shelby/Desktop/School/Professional Photo-Shelby Wilcox.jpg" width="400" height="500">
+     <h1>Shelby Wilcox</h1>
+    <p>Hi Im Shelby Wilcox. Im a student at Gonzaga University studying business. I work part time as a barista at Thomas Hammer. I have a passion for coffee and all things art and fashion! I love being creative and sharing my passion with people!</p>
+        </section>
+    </div>
+     <!-- Resume -->
+  <div class="w3-container" id="resume" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-brown"><b>Resume</b></h1>
+    <hr style="width:50px;border:5px solid brown" class="w3-round">
+    <h1>Education</h1>
+    <p> University of Arizona	  Tucson, Arizona 
+        <li>Major: Pre-Business 	Aug 2021-May 2022</li> </p>
+    <p>Gonzaga University	Spokane, Washington 
+        <li>	Major: Business Admin-Undeclared</li> </p>
+    <h2>Promotional Edge	San Ramon, CA</h2>
+    <li> Social Media and Marketing Intern 	May 2022 to Aug 2022 
+      <ul>
+      <li>Handled inventory and order fulfillment</li>
+      <li>Advanced their social media including LinkedIn and Instagram</li>
+      <li>Involved in all aspects of distribution and marketing</li>
+      <li>Strategic collaboration with clients</li>
+      <li>Supported incoming client communications to include phone calls, post, and email</li>
+      </ul>
+      <h2> Alpha Kappa Psi (Business Fraternity)	Spokane, WA</h2>
+      <li> Member	Feb 2022 to Current
+        <ul>
+      <li>Recognized with an award for exemplifying the highest leadership out of my recruit class</li>
+    </ul>
+      <h2>Thomas Hammer	Spokane, WA </h2>
+      <li> Barista/Cashier	Dec 2022 to Current
+        <ul>
+      <li>Trained professionally in coffee at the Thomas Hammer HQ </li>
+      <li>Being able to take orders and create drinks in a fastpaced environment</li>
+      <li>Working with a team and communicating well</li>
+    </ul> 
+    </div>
+  <!-- Guides (modal) -->
+  <div class="w3-container" id="Guides" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-brown"><b>Guides</b></h1>
+    <hr style="width:50px;border:5px solid brown" class="w3-round">
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <section>
+				<img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/flat-white-3402c4f.jpg?quality=90&webp=true&resize=500,454" width="500" height="300">
+    			<h1>Coffee Drinks</h1>
+                <p> 
+                  <li> TYPES OF WAYS TO DRINK 
+                    <ul>
+                  <li> Americano: Espresso shots on water</li> 
+                  <li> Latte:Espresso shots on milk</li>
+                  <li> Mocha: Latte with Chocolate Flavor </li> 
+                  <li>Cappucino: Very Foamy typically short latte, served wet or dry (more milk, less milk)</li> 
+                  <li>Cortado: 2 oz of steamed milk and 2 oz of espresso (mini latte)</li>
+                  <li>Traditional Macchiato: espressso shots and a dollop of foam </li>
+              <ul>
+            </li> 
+          </p>
+    			      <p> 
+                  <li> FLAVOR GUIDE 
+             <ul>
+           <li> Ordering fruit flavors in coffee? I reccommend berry flavors with chocolate! </li>
+            <li>If your looking for a nuttier taste try using almond milk or adding flavors like hazelnut. </li>
+           <li> Looking for subtle flavor vanilla and caramel are always great basics.</li> 
+          <li>Looking for a floral taste try lavender or violet (ask for a smaller amount for your first try)</li>
+          <li>Authors Favorites: Oatmilk latte with caramel and/or vanilla flavor</li>
+        </ul>
+        </li>
+      </p>
+    		</section>
+            <section>
+				<img src="https://andianne.com/wp-content/uploads/2021/04/smoothies-07.jpg" width="500" height="300">
+    			<h1>No Caffeine Drinks</h1>
+                <p> Check if the shop has smoothie options or decaf coffee. Another great option is a Chai Latte! Ask if they have herbal decaf tea. </p>
+    			<p> Authors Favorite: I love a good chai latte with oat milk or a refreshing mango or strawberry smoothie!</p>
+    		</section>
+        <section>
+          <img src="https://post.healthline.com/wp-content/uploads/2022/01/hot-tea-steaming-steeping-732-549-feature-thumb-732x549.jpg" width="500" height="300">
+            <h1>Tea Drinks</h1>
+                  <p> Check at the store which teas are caffeinated and not! Herbal tea typically is not caffeinated.  </p>
+            <p>
+           <ul>
+              <li>Matcha is the highest caffenated tea, then comes black tea then green tea. </li>
+             <li>When ordering black tea try pairing it with strawberry or lemonade! </li>
+             <li>When ordering green tea try pairing with a honey or peach flavor! </li>
+              <li>With matcha go for a latte style and try adding vanilla or lavender! </li>
+              <li>Authors Favorite: Black tea with splash of lemonade, Vanilla Matcha with oatmilk, Peach green tea with lemonade</li> 
+          </ul>
+          <h1>How to make some of these drinks!</h1>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/lVeNTofDB2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </p>
+          </section>
+<!-- End page content -->
+</div>
+
+
